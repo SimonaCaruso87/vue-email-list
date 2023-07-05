@@ -22,7 +22,8 @@
 </head>
 <body>
     
-<div id="app">
+<div class="container title border-3 rounded-3">Lista Email Random :</div>   
+<div id="app" class="container border-3 rounded-3 cont-email">
     <ul v-if="emailList.length == 10">
         <li v-for="(singleEmail , i) in emailList">
             {{ singleEmail }}

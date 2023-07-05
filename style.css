@@ -5,8 +5,21 @@
 }
 
 .container {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(156, 88, 219, 0.61);
+    border:5px solid rgb(255, 0, 200);
+}
+
+.title{
+    background-color: rgba(116, 16, 209, 0.589);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(168, 17, 123);
+    margin-bottom: 10px;
+}
+
+.cont-email{
+   height: 50vh;
 }
